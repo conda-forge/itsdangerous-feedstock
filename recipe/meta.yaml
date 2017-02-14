@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 0
+  number: 1
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -31,9 +31,11 @@ test:
 about:
   home: https://github.com/pallets/itsdangerous
   license: BSD 3-Clause
+  license_family: BSD
   license_file: LICENSE
   summary: Various helpers to pass trusted data to untrusted environments.
   doc_url: http://pythonhosted.org/itsdangerous
+  dev_url: https://github.com/pallets/itsdangerous
 
 extra:
   recipe-maintainers:
