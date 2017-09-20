@@ -14,9 +14,7 @@ Summary: Various helpers to pass trusted data to untrusted environments.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/itsdangerous-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/itsdangerous-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/itsdangerous-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/itsdangerous-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/itsdangerous-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/itsdangerous-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/itsdangerous-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/itsdangerous-feedstock)
 
 Current release info
 ====================
