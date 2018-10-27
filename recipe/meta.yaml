@@ -33,7 +33,7 @@ about:
   home: https://github.com/pallets/itsdangerous
   license: BSD 3-Clause
   license_family: BSD
-  license_file: LICENSE
+  license_file: LICENSE.rst
   summary: Various helpers to pass trusted data to untrusted environments.
   doc_url: http://pythonhosted.org/itsdangerous
   dev_url: https://github.com/pallets/itsdangerous
