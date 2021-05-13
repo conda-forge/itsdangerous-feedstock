@@ -3,7 +3,7 @@ About itsdangerous
 
 Home: https://github.com/pallets/itsdangerous
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/itsdangerous-feedstock/blob/master/LICENSE.txt)
 
