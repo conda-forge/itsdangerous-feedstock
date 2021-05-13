@@ -19,11 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python
-    - setuptools
+    - python >=3.6
 
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
