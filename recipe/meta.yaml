@@ -1,6 +1,6 @@
 {% set name = "itsdangerous" %}
-{% set version = "2.0.1" %}
-{% set hash = "9e724d68fc22902a1435351f84c3fb8623f303fffcc566a4cb952df8c572cff0" %}
+{% set version = "2.1.0" %}
+{% set hash = "d848fcb8bc7d507c4546b448574e8a44fc4ea2ba84ebf8d783290d53e81992f5" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
 
   run:
-    - python >=3.6
+    - python >=3.7
 
 test:
   imports:
