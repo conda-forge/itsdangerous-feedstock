@@ -33,7 +33,7 @@ about:
   home: https://palletsprojects.com/p/itsdangerous/
   license: BSD-3-Clause
   license_family: BSD
-  license_file: LICENSE.rst
+  license_file: LICENSE.txt
   summary: Safely pass data to untrusted environments and back.
   description: |
     Various helpers to pass data to untrusted environments and to get it
