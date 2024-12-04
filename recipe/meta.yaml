@@ -8,24 +8,26 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - flit-core <4
 
   run:
-    - python >=3.8
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - itsdangerous
 
